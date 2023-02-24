@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <h1 class="visually-hidden">Stats preview card component</h1>
+    <main>
+      <article class="banner">
+        <picture class="banner__picture">
+          <source
+            media="(min-width:768px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            class="banner__img"
+            src="./images/image-header-mobile.jpg"
+            alt="Three bussiness women having a bussiness meeting"
+          />
+        </picture>
+        <div class="banner__info">
+          <div class="banner__info-divider">
+            <h2 class="banner__title">
+              Get <span class="title__accent">insights</span> that help your
+              business grow.
+            </h2>
+            <p class="banner__description">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <ul class="stats">
+            <li class="stat">
+              <p class="stat__data">10k+</p>
+              <p class="stat__description">companies</p>
+            </li>
+            <li class="stat">
+              <p class="stat__data">314</p>
+              <p class="stat__description">templates</p>
+            </li>
+            <li class="stat">
+              <p class="stat__data">12M+</p>
+              <p class="stat__description">queries</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/bramizdev" target="_blank">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
